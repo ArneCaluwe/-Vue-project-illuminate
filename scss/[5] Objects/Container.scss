@@ -1,0 +1,12 @@
+.container--flex-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.container--fit{
+    width: fit-content;
+}
+
+.container--align-center{
+    align-items: center;
+}
