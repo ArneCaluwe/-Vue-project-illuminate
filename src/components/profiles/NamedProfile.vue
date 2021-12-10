@@ -1,6 +1,9 @@
 <template>
   <div
-    class="container--flex-horizontal container--fit container--align-center"
+    class="
+      container--flex-horizontal container--fit container--align-center
+      gap-xs
+    "
   >
     <ProfileIcon color="red" />
     <p class="profile__name">Arne Caluwe</p>
