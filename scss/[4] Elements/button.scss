@@ -1,0 +1,14 @@
+@use "../[1] Settings/colors" as c;
+$button-padding: 0.5em;
+$button-border-radius: 10px;
+button {
+    padding: $button-padding;
+    border-radius: $button-border-radius;
+    
+    box-shadow: 2.5px 2.5px 5px lighten(c.$secondary, 60);
+}
+button:hover {
+    padding: $button-padding;
+    border-radius: $button-border-radius;
+    box-shadow: 2.5px 2.5px 5px lighten(c.$secondary, 30);
+}
