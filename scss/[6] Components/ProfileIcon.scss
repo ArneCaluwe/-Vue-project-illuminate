@@ -1,0 +1,19 @@
+@use "../[1] Settings/colors" as c;
+$template-background-color : c.$white;
+
+.profile-icon__profile-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100px;
+  background-color: c.$primary;
+}
+.profile-icon__image-template {
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100px;
+  background-color: white;
+}

@@ -1,0 +1,7 @@
+@use "../[1] Settings/_colors.scss" as c ;
+
+
+.profile__name {
+    color: c.$primary;
+    font-size: 1.2rem;
+  }
